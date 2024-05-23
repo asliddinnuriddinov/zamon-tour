@@ -17,8 +17,8 @@ const BannerContent = ({h2_text,h1_text,population,territory,avgPrice}) => {
           <div className='md:w-[60px] md:h-[60px] w-[35px] h-[35px] rounded-full border-main border-2 flex items-center justify-center'>
             <FaUser className='text-lg md:text-2xl text-main'/>
           </div>
-          <div className='flex items-center gap-3 sm:block'>
-            <p className='text-[13px] md:text-[15px] mr-7 sm:mr-0 text-gray-500'>{t('banner1.population')}</p>
+          <div className='flex items-center gap-12 sm:block'>
+            <p className='text-[13px] md:text-[15px] text-gray-500'>{t('banner1.population')}</p>
             <strong className='text-main font-bold text-md sm:text-lg md:text-[20px]'>{population} {t('visitCard.mil')}</strong>
           </div>
         </div>
@@ -26,8 +26,8 @@ const BannerContent = ({h2_text,h1_text,population,territory,avgPrice}) => {
           <div className='md:w-[60px] md:h-[60px] w-[35px] h-[35px] rounded-full border-main border-2 flex items-center justify-center'>
             <FaGlobe className='text-2xl text-main' />
           </div>
-          <div className='flex items-center gap-3 sm:block'>
-            <p className='text-[13px] md:text-[15px] mr-7 sm:mr-0 text-gray-500'>{t('banner1.territory')}</p>
+          <div className='flex items-center gap-[63px] sm:block'>
+            <p className='text-[13px] md:text-[15px] text-gray-500'>{t('banner1.territory')}</p>
             <strong className='text-main font-bold text-sm sm:text-[15px] md:text-[20px]'>{territory} {t('visitCard.km')}<sup>2</sup></strong>
           </div>
         </div>
@@ -37,8 +37,8 @@ const BannerContent = ({h2_text,h1_text,population,territory,avgPrice}) => {
           <div className='md:w-[60px] md:h-[60px] w-[35px] h-[35px] rounded-full border-main border-2 flex items-center justify-center'>
             <FaHouse className='text-2xl text-main'/>
           </div>
-          <div className='flex items-center gap-3 sm:block'>
-            <p className='text-[13px] md:text-[13px] mr-7 sm:mr-0 text-gray-500'>{t('banner1.avgPrice')}</p>
+          <div className='flex items-center gap-14 sm:block'>
+            <p className='text-[13px] md:text-[13px] text-gray-500'>{t('banner1.avgPrice')}</p>
             <strong className='text-main font-bold text-md sm:text-lg md:text-[20px]'>${avgPrice}</strong>
           </div>
         </div>
