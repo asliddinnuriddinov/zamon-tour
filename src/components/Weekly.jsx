@@ -38,7 +38,7 @@ const Weekly = () => {
               },
             460:{
                 width:460,
-                slidesPerView:1.7,
+                slidesPerView:1,
             },
             560:{
                 width:560,
