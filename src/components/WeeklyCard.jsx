@@ -6,7 +6,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 const WeeklyCard = ({country,price,checks}) => {
   const {t}=useTranslation()
   return (
-    <div className="shadow-card p-5 absolute rounded-3xl bg-white w-[320px] -bottom-12 right-3">
+    <div className="shadow-card sm:p-5 p-3 absolute rounded-3xl bg-white sm:w-[320px] w-[270px] -bottom-12 right-36 sm:right-3">
       <div className="flex justify-between items-center">
         <h3 className=" font-extrabold text-lg text-[#2A2A2A]">{country}</h3>
         <strong className="text-main text-lg font-extrabold">${price}</strong>
