@@ -41,7 +41,7 @@ const Visa = () => {
             },
             560:{
                 width:560,
-                slidesPerView:1.9,
+                slidesPerView:1,
             },
             760:{
                 width:760,

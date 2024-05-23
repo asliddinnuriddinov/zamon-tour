@@ -34,7 +34,7 @@ const Weekly = () => {
             breakpoints={{
               360:{
                 width:360,
-                slidesPerView:1,
+                slidesPerView:0.7,
               },
             460:{
                 width:460,
@@ -42,7 +42,7 @@ const Weekly = () => {
             },
             560:{
                 width:560,
-                slidesPerView:1.9,
+                slidesPerView:1,
             },
             760:{
                 width:760,
