@@ -19,7 +19,7 @@ const BannerContent = ({h2_text,h1_text,population,territory,avgPrice}) => {
           </div>
           <div>
             <p className='text-[13px] md:text-[15px] text-gray-500'>{t('banner1.population')}</p>
-            <strong className='text-main font-bold text-md sm:text-lg md:text-[20px]'>{population}</strong>
+            <strong className='text-main font-bold text-md sm:text-lg md:text-[20px]'>{population} {t('visitCard.mil')}</strong>
           </div>
         </div>
         <div className='flex items-center gap-x-5'>
@@ -39,7 +39,7 @@ const BannerContent = ({h2_text,h1_text,population,territory,avgPrice}) => {
           </div>
           <div>
             <p className='text-[13px] md:text-[13px] text-gray-500'>{t('banner1.avgPrice')}</p>
-            <strong className='text-main font-bold text-md sm:text-lg md:text-[20px]'>{avgPrice}</strong>
+            <strong className='text-main font-bold text-md sm:text-lg md:text-[20px]'>${avgPrice}</strong>
           </div>
         </div>
         <button className='bg-main rounded-3xl text-white text-[10px] sm:text-[12px] md:text-[14px] h-[47px] px-3 md:px-10 font-semibold hover:bg-white hover:text-main hover:border-main border-[1px] transition-colors duration-500'><a href="#info">{t('button.explore')}</a></button>
