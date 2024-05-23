@@ -65,22 +65,22 @@ const Visa = () => {
           >
   <SwiperSlide className="visa-swiper-slide">
     <div className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl" style={{ backgroundImage: `url(${istanbul})`, width:"100%" }}>
-      <VisaCard country={t('banner1.h1')} checks={"234"} />
+      <VisaCard country={t('country.saudia')} checks={"234"} />
     </div>
   </SwiperSlide>
   <SwiperSlide className="visa-swiper-slide">
     <div className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl" style={{ backgroundImage: `url(${antalya})`, width:"100%" }}>
-      <VisaCard country={t('banner2.h1')} checks={"290"} />
+      <VisaCard country={t('country.kuala')} checks={"290"} />
     </div>
   </SwiperSlide>
   <SwiperSlide className="visa-swiper-slide">
     <div className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl" style={{ backgroundImage: `url(${dubai})`, width:"100%" }}>
-      <VisaCard country={t('banner3.h1')} checks={"320"} />
+      <VisaCard country={t('country.japan')} checks={"320"} />
     </div>
   </SwiperSlide>
   <SwiperSlide className="visa-swiper-slide">
     <div className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl" style={{ backgroundImage: `url(${sharm})`, width:"100%" }}>
-      <VisaCard country={t('banner4.h1')} checks={"300"} />
+      <VisaCard country={t('country.china')} checks={"300"} />
     </div>
   </SwiperSlide>
   <SwiperSlide className="visa-swiper-slide">
