@@ -49,15 +49,15 @@ const Nav = () => {
 
                 <div className={`lg:hidden bg-[#f7f7f7] w-[80%] py-8 absolute top-[100%] left-[50%] ${!open?'translate-x-[120%]':'translate-x-[-50%]'} transition-transform duration-500`}>
                     <ul className='flex flex-col gap-8 items-center'>
-                        <li className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><a className='text-black hover:text-black transition-colors duration-300 text-lg' href="#">{t("nav.home")}</a></li>
-                        <li className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><a className='text-black hover:text-black transition-colors duration-300 text-lg' href="#destination">{t("nav.about")}</a></li>
-                        <li className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><a className='text-black hover:text-black transition-colors duration-300 text-lg' href="#weekly">{t("nav.tours")}</a></li>
-                        <li className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><a className='text-black hover:text-black transition-colors duration-300 text-lg' href="#info">{t("nav.contact")}</a></li>
-                        <li className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><button onClick={e=>{changeLang("ru")}} className='text-black hover:text-black transition-colors duration-300'>RU</button></li>
-                        <li className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><button onClick={e=>{changeLang("en")}} className='text-black hover:text-black transition-colors duration-300'>ENG</button></li>
-                        <li className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><button onClick={e=>{changeLang("uz")}} className='text-black hover:text-black transition-colors duration-300'>UZ</button></li>
-                        <li className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><a className='text-black text-xl hover:text-black transition-colors duration-300 flex justify-center' href=""><FaTelegram /></a></li>
-                        <li ><a className='text-black text-xl hover:text-black transition-colors duration-300' href=""><FaInstagram /></a></li>
+                        <li onClick={e=>setOpen(false)} className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><a className='text-black hover:text-black transition-colors duration-300 text-lg' href="#">{t("nav.home")}</a></li>
+                        <li onClick={e=>setOpen(false)} className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><a className='text-black hover:text-black transition-colors duration-300 text-lg' href="#destination">{t("nav.about")}</a></li>
+                        <li onClick={e=>setOpen(false)} className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><a className='text-black hover:text-black transition-colors duration-300 text-lg' href="#weekly">{t("nav.tours")}</a></li>
+                        <li onClick={e=>setOpen(false)} className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><a className='text-black hover:text-black transition-colors duration-300 text-lg' href="#info">{t("nav.contact")}</a></li>
+                        <li onClick={e=>setOpen(false)} className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><button onClick={e=>{changeLang("ru")}} className='text-black hover:text-black transition-colors duration-300'>RU</button></li>
+                        <li onClick={e=>setOpen(false)} className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><button onClick={e=>{changeLang("en")}} className='text-black hover:text-black transition-colors duration-300'>ENG</button></li>
+                        <li onClick={e=>setOpen(false)} className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><button onClick={e=>{changeLang("uz")}} className='text-black hover:text-black transition-colors duration-300'>UZ</button></li>
+                        <li onClick={e=>setOpen(false)} className='border-b-[1px] border-[#afafaf] w-full text-center pb-4'><a className='text-black text-xl hover:text-black transition-colors duration-300 flex justify-center' href=""><FaTelegram /></a></li>
+                        <li onClick={e=>setOpen(false)} ><a className='text-black text-xl hover:text-black transition-colors duration-300' href=""><FaInstagram /></a></li>
                     </ul>
                 </div>
             </div>
